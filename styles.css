@@ -3,15 +3,17 @@
     padding: 0;
 }
 body{
+    min-height:100dvh ; 
     background-color: rgb(214, 226, 240);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .center{
     height: 420px;
     width: 260px;
     background-color: white;
-    margin: 250px 0 0 0;
+/*     margin: 250px 0 0 0; */
     padding: 20px;
     display: flex;
     flex-direction: column;
