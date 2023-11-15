@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(214, 226, 240);
+    display: flex;
+    justify-content: center;
+}
+.center{
+    height: 420px;
+    width: 260px;
+    background-color: white;
+    margin: 250px 0 0 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 15px;
+}
+.pic{
+    height: 270px;
+    width: auto;
+    border-radius: 10px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+p{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+.first{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(31, 50, 81);
+}
+.second{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
